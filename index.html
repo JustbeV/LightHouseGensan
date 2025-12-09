@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Our Church</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+  <div class="container">
+    <img src="assets/images/image1.jpg" alt="Logo" class="logo" title="Church Logo">
+    <!-- <h1>Lighthouse Church Lanoy</h1> -->
+    <nav>
+      <a href="#hero">Home</a>
+      <a href="#about">About</a>
+      <a href="#sermons">Sermons</a>
+      <a href="#events">Events</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<!-- HERO -->
+<section id="hero">
+  <video autoplay muted loop class="hero-video">
+    <source src="assets/video1.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+  <div class="hero-overlay"></div>
+  <div class="hero-content">
+    <h1>Welcome to Our Church</h1>
+    <p>Experience God’s love and fellowship every Sunday.</p>
+    <a href="#events" class="btn">See Upcoming Events</a>
+  </div>
+</section>
+<!-- ABOUT -->
+<section id="about">
+  <div class="section-container">
+    <h2>About Our Church</h2>
+    <p>We are a community of believers dedicated to spreading God’s love. Join us for worship, fellowship, and service. Together we grow in faith and love.</p>
+  </div>
+</section>
+
+<!-- SERMONS -->
+<section id="sermons">
+  <div class="section-container">
+    <h2>Latest Sermons</h2>
+    <div class="cards">
+      <!-- Dynamic sermons inserted here -->
+    </div>
+  </div>
+</section>
+
+<!-- EVENTS -->
+<section id="events">
+  <div class="section-container">
+    <h2>Upcoming Events</h2>
+    <div class="cards">
+      <!-- Dynamic events inserted here -->
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <div class="section-container">
+    <h2>Send a Prayer Request</h2>
+    <form action="mailto:itsustheit@gmail.com" method="post" enctype="text/plain">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" placeholder="Your Prayer Request" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </div>
+</section>
+
+<footer>
+  <p>&copy; 2025 Our Church. All rights reserved.</p>
+</footer>
+
+<script src="js/data.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
